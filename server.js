@@ -86,7 +86,7 @@ ${prefix}botinfo
 ${prefix}userrinfo
 ${prefix}servarinfo
 **━━━━━━⊱✿⊰━━━━━━**
-__ [𝗜𝗡𝗩𝗜𝗧𝗘 𝘽𝙊𝙏](https://discord.com/api/oauth2/authorize?client_id=805742442736648203&permissions=8&scope=bot) ____    ____ [𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝙎𝙍](https://discord.gg/HqCs49A23C) __
+__ [𝗜𝗡𝗩𝗜𝗧𝗘 𝘽𝙊𝙏](https://discord.com/api/oauth2/authorize?client_id=813582444388810753&permissions=0&scope=bot) ____    ____ [𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝙎𝙍](https://discord.gg/z89SWpzTWw) __
 `);
 
     message.channel.send(help);
