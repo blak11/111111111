@@ -53,7 +53,7 @@ fog.login("ODEzNTgyNDQ0Mzg4ODEwNzUz.YDRZsg.4gyiLO95f3Ad6ARQbxbieL-QcCU");
 ///////////////////////////////////////////////////////////////////////////////
 fog.on("ready", () => {
   console.log(`${fog.user.tag}`);
-  fog.user.setActivity(`${prefix}help IS | HERE`, {
+  fog.user.setActivity(`${prefix}help Is Random`, {
     Type: "Playing"
   });
 });
