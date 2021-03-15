@@ -49,7 +49,7 @@ const callitrue = "";
 const callifalse = "";
 const calliwarn = "";
 ///////////////////////////////////////////////////////////////////////////////
-fog.login("ODEzNTgyNDQ0Mzg4ODEwNzUz.YDRZsg.4gyiLO95f3Ad6ARQbxbieL-QcCU");
+fog.login("ODEzNTgyNDQ0Mzg4ODEwNzUz.YDRZsg.Aw1xRoc9SbiVYXnuy_qJwUSBDww");
 ///////////////////////////////////////////////////////////////////////////////
 fog.on("ready", () => {
   console.log(`${fog.user.tag}`);
