@@ -993,7 +993,7 @@ fog.on("guildCreate", guild => {
     .addField("`Location of the Server:`", guild.region)
     .addField("`Number of people of the Server:`", guild.memberCount)
     .setTimestamp();
-  fog.channels.cache.get("820694521670008892").send(rrrsembed);
+  fog.channels.cache.get("821167267773284392").send(rrrsembed);
 });
 ////////==={fog , 16 💥16}===////////
 fog.on("guildDelete", guild => {
@@ -1007,6 +1007,6 @@ fog.on("guildDelete", guild => {
     .addField("`Location of the Server:`", guild.region)
     .addField("`Number of people of the Server:`", guild.memberCount)
     .setTimestamp();
-  fog.channels.cache.get("820694521670008892").send(rrrsembed);
+  fog.channels.cache.get("821167267773284392").send(rrrsembed);
 });
 ////////==={fog , 16 💥16}===//////
