@@ -1,23 +1,4 @@
-////////==={fog , 16 💥16}===////////
-////////==={fog , 16 💥16}===////////
-////////==={fog , 16 💥16}===////////
-const express = require("express");
-const app = express();
-const dreams = [
-  "Find and count some sheep",
-  "Climb a really tall mountain",
-  "Wash the dishes"
-];
-app.use(express.static("public"));
-app.get("/", (request, response) => {
-  response.sendFile(__dirname + "/views/index.html");
-}); ////////==={fog , 16 💥16}===////////
-app.get("/dreams", (request, response) => {
-  response.json(dreams);
-}); ////////==={fog , 16 💥16}===////////
-const listener = app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
-});
+
 ////////==={fog , 16 💥16}===////////
 const { Client, MessageEmbed } = require("discord.js");
 var { Util } = require("discord.js");
