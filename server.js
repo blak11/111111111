@@ -74,14 +74,7 @@ __ [𝗜𝗡𝗩𝗜𝗧𝗘 𝘽𝙊𝙏](https://discord.com/api/oauth2/author
   }
 });
 ////////==={fog , 16 💥16}===////////
-fog.on("message", async message => {
-  if (message.content.startsWith("Tag Bot is here")) {
-    let tag = new Discord.MessageEmbed()
-      .setColor(callicolor)
-      .setAuthor(`IS | HERE : ${prefix}help`);
-    message.channel.send(tag);
-  }
-});
+
 ////////==={fog , 16 💥16}===////////
 fog.on("message", message => {
   var ms = require("ms");
